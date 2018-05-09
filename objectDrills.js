@@ -70,3 +70,70 @@
 
 
 // });
+
+
+// Cracking the code
+
+// const cipher = {
+//   a: 2,
+//   b: 3,
+//   c: 4,
+//   d: 5,
+// };
+
+// const string = 'craft block argon meter bells brown croon droop';
+
+// function decodeWords(code) {
+// const cipher = {
+//   two: 'a',
+//   a: 1,
+//   three: 'b',
+//   b: 2,
+//   four: 'c',
+//   c: 3,
+//   five: 'd',
+//   d: 4,
+
+// };
+
+//   const cipher = {
+//     a: {
+//       letter: 'a',
+//       index: 1,
+//     },
+//     b: {
+//       letter: 'b',
+//       index: 2,
+//     },
+//     c: {
+//       letter: 'c',
+//       index: 3,
+//     },
+//     d: {
+//       letter: 'd',
+//       index: 4,
+//     },
+//   };
+
+
+//   let words = code.split(' ');
+//   let answer = '';
+
+//   for (let i = 0; i < words.length; i++) {
+//     if (words[i][0] === cipher.a.letter) {
+//       answer = answer.concat(words[i][cipher.a.index]);
+//     } else if (words[i][0] === cipher.b.letter) {
+//       answer = answer.concat(words[i][cipher.b.index]);
+//     } else if (words[i][0] === cipher.c.letter) {
+//       answer = answer.concat(words[i][cipher.c.index]);
+//     } else if (words[i][0] === cipher.d.letter) {
+//       answer = answer.concat(words[i][cipher.d.index]);
+//     } else {
+//       answer = answer.concat(' ');
+//     }
+//   }
+//   return answer;
+// }
+
+// console.log(decodeWords(string));
+
