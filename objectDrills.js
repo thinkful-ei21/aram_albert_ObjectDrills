@@ -36,24 +36,37 @@
 // console.log(hobbit.meals[3]);
 
 // Array of objects
+// const person1 = {
+//   name: 'Luke',
+//   jobTitle: 'Jedi',
+//   boss: 'Leia',
+// };
 
-const person1 = {
-  name: 'Luke',
-  jobTitle: 'Jedi',
-};
+// const person2 = {
+//   name: 'Han',
+//   jobTitle: 'Smuggler',
+//   boss: 'Leia',
+// };
 
-const person2 = {
-  name: 'Han',
-  jobTitle: 'Smuggler',
-};
+// const person3 = {
+//   name: 'Chewie',
+//   jobTitle: 'Carpet',
+//   boss: 'Leia',
+// };
 
-const person3 = {
-  name: 'Chewie',
-  jobTitle: 'Carpet',
-};
+// const person4 = {
+//   name: 'Leia',
+//   jobTitle: 'Awkward love interest'
+// };
 
-const starWarsCast = [person1, person2, person3];
+// const starWarsCast = [person1, person2, person3, person4];
 
-starWarsCast.forEach((each) => {
-  console.log(`The name is ${each.name}, and he is a ${each.jobTitle}`);
-});
+// starWarsCast.forEach((each) => {
+//   if (each.boss) {
+//     console.log(`${each.jobTitle} ${each.name} reports to ${each.boss}.`);
+//   } else {
+//     console.log(`${each.jobTitle} ${each.name} doesn't report to anybody.`);
+//   }
+
+
+// });
