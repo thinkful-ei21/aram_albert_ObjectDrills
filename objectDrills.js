@@ -15,14 +15,22 @@
 // console.log('Hydration: ' + loaf.hydration());
 
 // Iterating over an object's properties
-const someObject = {
-  foo: 'foo',
-  bar: 'bar',
-  fum: 'fum',
-  quux: 'quux',
-  spam: 'spam'
-};
+// const someObject = {
+//   foo: 'foo',
+//   bar: 'bar',
+//   fum: 'fum',
+//   quux: 'quux',
+//   spam: 'spam'
+// };
 
-for (let key in someObject) {
-  console.log(key);
-}
+// for (let key in someObject) {
+//   console.log(key);
+// }
+
+//Arrays in objects
+
+// const hobbit = {
+//   meals: ['breakfast', 'second breakfast', 'elevenses', 'lunch', 'afternoon tea', 'dinner', 'supper']
+// };
+
+// console.log(hobbit.meals[3]);
