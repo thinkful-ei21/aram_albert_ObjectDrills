@@ -137,3 +137,95 @@
 
 // console.log(decodeWords(string));
 
+// function createCharacter(name, nickname, race, origin, weapon, attack, defense) {
+//   return {
+//     name,
+//     nickname,
+//     race,
+//     origin,
+//     weapon,
+//     attack,
+//     defense,
+//     describe: function () {
+//       //return `${this.name} is a ${this.race} from ${this.origin}.`;
+//       console.log(`${this.name} is a ${this.race} of ${this.origin} who uses ${weapon}.`);
+//     },
+//     evaluateFight: function (character) {
+//       let damageDealt = this.attack - character.defense;
+//       let damageTaken = character.attack - this.defense;
+//       return `Your opponent takes ${damageDealt} damage and you receive ${damageTaken} damage`;
+//     }
+//   };
+// }
+
+
+
+// let characterSheet = [
+//   createCharacter('Zargon', 'Zargy', 'Mini Elf', 'the Shelf', 'Blibber Blaster', 11, 2),
+//   createCharacter('Iron Man', 'Stark', 'Man', 'Earth', 'Repulsor Blast', 5, 5),
+//   createCharacter('Gandalf', 'Gandalf the Grey', 'Mair', 'Middle Earth', 'Staff', 10, 6),
+//   createCharacter('Frodo Baggins', 'Mr. Frodo', 'Hobbit', 'The Shire', 'The Ring', 2, 1),
+//   createCharacter('Samwise Gamgee', 'Sam', 'Hobbit', 'The Shire', 'Sting', 3, 2),
+//   createCharacter('Aragorn', 'Strider', 'Man', 'Dunnedain', 'Sword', 6, 8),
+//   createCharacter('Legolas', 'legolas', 'Elf', 'Woodland Realm', 'Bow', 8, 5),
+// ];
+
+// console.log(characterSheet[0].describe());
+
+
+
+// class Animal {
+//   constructor(type, size) {
+//     const validTypes = ['dog', 'cat'];
+//     if (!type || !size) throw new TypeError('Missing required attributes');
+//     if (!validTypes.includes(type)) throw new TypeError('Unknown animal type');
+
+//     this.type = type;
+//     this.size = size;
+//   }
+
+//   speak() {
+//     return this.type === 'dog' ? 'Woof' : 'Meow';
+//   }
+// }
+
+// const dog = new Animal('dog', 'large');
+// console.log(dog);
+// console.log(dog.speak());
+
+// function createCharacter(name, nickname, race, origin, attack, defense) {
+//   return {
+//     name,
+//     nickname,
+//     race,
+//     origin,
+//     attack,
+//     defense,
+//     describe: function () {
+//       return `${this.name} is a ${this.race} from ${this.origin}.`;
+//     },
+//     evaluateFight: function (character) {
+//       let damageDealt = this.attack - character.defense;
+//       let damageTaken = character.attack - this.defense;
+//       return `Your opponent takes ${damageDealt} damage and you receive ${damageTaken} damage`;
+//     }
+//   };
+// }
+
+const HEROES = [
+  { id: 1, name: 'Captain America', squad: 'Avengers' },
+  { id: 2, name: 'Iron Man', squad: 'Avengers' },
+  { id: 3, name: 'Spiderman', squad: 'Avengers' },
+  { id: 4, name: 'Superman', squad: 'Justice League' },
+  { id: 5, name: 'Wonder Woman', squad: 'Justice League' },
+  { id: 6, name: 'Aquaman', squad: 'Justice League' },
+  { id: 7, name: 'Hulk', squad: 'Avengers' },
+];
+
+function findOne(arr, query) {
+
+}
+
+console.log(findOne(HEROES, { id: 1 }));
+// console.log(findOne(HEROES, { squad: 'Justice League' }));
+// expected { id: 1, name: 'Captain America', squad: 'Avengers' }
